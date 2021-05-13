@@ -1,6 +1,7 @@
 import React from "react";
 import i1 from "../components/Image1.jpg";
 import {Link} from "react-router-dom";
+import Button from 'react-bootstrap/Button'
 
 function Home(){
     return(
@@ -17,10 +18,10 @@ function Home(){
                     <p className="pt2">3rd year DAIICT Undergrad | Curious learner | Drawing and Painting | Strong Coffee | Frontend</p>
                 </div>
                 <div className="share">
-                    <Link to='/'><img className="icon linkedin" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"/></Link>
-                    <Link to='/'><img className="icon instagram" src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="instagram"/></Link>
-                    <Link to='/'><img className="icon github" src="https://img.icons8.com/fluent/48/000000/github.png" alt="github"/></Link>
-                    <Link to='/'><img className="icon twitter" src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="twitter"/></Link>
+                    <a href='https://www.linkedin.com/in/khushalishah7/' target="_blank"><img className="icon linkedin" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"/></a>
+                    <a href='https://www.instagram.com/khushaliiishahh/' target="_blank"><img className="icon instagram" src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="instagram"/></a>
+                    <a href='https://github.com/khushali77' target="_blank"><img className="icon github" src="https://img.icons8.com/fluent/48/000000/github.png" alt="github"/></a>
+                    <a href='https://twitter.com/khushaliiishahh' target="_blank"><img className="icon twitter" src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="twitter"/></a>
                 </div>
             </div>
         </div>
