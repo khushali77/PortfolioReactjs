@@ -14,7 +14,7 @@ function Home(){
                 </div>
                 <div className="pt">
                     <h1 className="pt1">Hello, I am Khushali Shah.</h1>
-                    <p className="pt2">3rd year DAIICT Undergrad | Curious learner | Drawing and Painting | Strong Coffee | Frontend</p>
+                    <p className="pt2">3rd year DAIICT Undergrad | Curious learner | Drawing and Painting | Strong Coffee | Frontend | NFTs & Cryptos</p>
                 </div>
                 <div className="share">
                     <a href='https://www.linkedin.com/in/khushalishah7/' target="_blank"><img className="icon linkedin" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"/></a>

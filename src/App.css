@@ -47,6 +47,7 @@ body{
 .pt{
   align-self: center;
   margin-top: -75px;
+  width: 80%;
 }
 
 .share{
@@ -86,11 +87,21 @@ body{
 
 .projects a{
   color: rgb(66, 64, 64);
-} 
+}
+
+.projects a:hover{
+  color: white;
+  text-decoration: none;
+}
 
 .blogs a{
   color: rgb(66, 64, 64);
 } 
+
+.blogs a:hover{
+  color: white;
+  text-decoration: none;
+}
 
 li{
   list-style: none;
@@ -123,6 +134,24 @@ li{
 
 .labelans{
   font-size: 18px;
+}
+
+.aboutme{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.aboutme a{
+  color: rgb(66, 64, 64);
+}
+
+.aboutme a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.skills{
+  margin-top: 30px;
 }
 
 @media(max-width:900px){
