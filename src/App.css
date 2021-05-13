@@ -1,5 +1,8 @@
-.home{
+body{
   background-color: #ffc800;
+}
+
+.home{
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
@@ -64,6 +67,46 @@
   background: #ffc800;
   box-shadow: inset 10px 10px 20px #d9aa00,
             inset -10px -10px 20px #ffe600;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+  justify-self: center;
+  margin-top: 300px;
+}
+
+.projects h2{
+  font-size: 48px;
+}
+
+li{
+  list-style: none;
+}
+
+.project__indi{
+  -webkit-border-radius: 50px; 
+  border-radius: 20px; 
+  background: #ffc800;
+  -webkit-box-shadow: 12px 12px 24px #d9aa00,
+  -12px -12px 24px #ffe600;
+  box-shadow: 12px 12px 24px #d9aa00,
+  -12px -12px 24px #ffe600;
+  padding: 40px;
+  margin-top: 45px;
+  margin-right: 40px;
+}
+
+.label{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.labelans{
+  font-size: 18px;
 }
 
 @media(max-width:900px){

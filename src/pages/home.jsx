@@ -1,7 +1,6 @@
 import React from "react";
 import i1 from "../components/Image1.jpg";
 import {Link} from "react-router-dom";
-import Button from 'react-bootstrap/Button'
 
 function Home(){
     return(
