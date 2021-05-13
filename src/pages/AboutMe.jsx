@@ -2,7 +2,24 @@ import React from "react";
 
 function AboutMe(){
     return(
-        <h2>About Me page</h2>
+        <div className="aboutme">
+            <h3>Hey, Myself Khushali Shah 👋🏽</h3>
+            <p>I am currently a 3rd year undergraduate at Dhirhubhai Ambani Institute of Information and Communication Technology, currently pursuing Information and Communication Technology(ICT). I will be interning at Goldman Sachs this summer(2021) in the Controllers division. CUrrently, I am living in Ahmedabad, Gujarat, India. Also, my hobbies are Painting, Sketching, Travelling and Skating. Personally, my interests are in Frontend Web development, NFTs, Cryptocurrencies and Current World Affairs.</p>
+            <h6>You can find my Resume here📃: </h6><a href="https://drive.google.com/file/d/1uWySB823u1ZhzTNJNNvsjVxAbytVBf7u/view?usp=sharing">https://drive.google.com/file/d/1uWySB823u1ZhzTNJNNvsjVxAbytVBf7u/view?usp=sharing</a>
+            <div className="skills">
+                <h4>Skills/Tools I know: </h4>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD4klEQVRoge2ZT2gUVxzHP292N0GjqdEEGo0Xe7KCB61eKthDKEoPJRbxoN68tyAUCu2xRw96klyDpW3AYKvYQoQILYgXT1pBrAdB2ahJzJ/9O++9HjbZzJvsvPdmd9Ji2S8s7Ps7v+983+/PzEAXXXTxTkPYBl+cYhlN379lTAKWd0+xPWkwsC7VFDM3Jz2sNlgJaJjN1pb0EA4b8o7FHSswPJJ+TbkEC3ON/1p0oAD/kQJK+dtgJ+Bgv1lQMtp4B30gqoDLBiuBwMF+sxAlEDhOgdWJsbAXfQP0XnnqtmZgwD3n+/1QfNxsyqx8wBYBdGUJtHYb54OVN0Yz6gM66MAHlI29DKFW9jHPDq2hNG9eN6KADDpQYM8Uc0A98drlRR8T7SgvgArX91SN3yrqI5PMt1q2Blci0y/hlYbdrS++CDvebzar3xxGzz4z56RMZPEcIMB6Tl2JDG2rh+IK9Hk4rAMxAs4o6CSAxQ/iR0hs2+mxnR1pIhD4ELDF4VL2BIws7KGAKw+gG+ew9VhMgcKFqxQuXDUnufLAzGW4/lWzaYTQLBQIbHchiyhUeWs002RhyNgH2kI5mUAmClgzYSmjPBCBTFGJQoc+EN4ZJ7wzbt8gngfOT8CRc+vtGIGoAtZKYBVOBWQ944p0a8yp40cookCvow4CDwX2LjL7cgBFC7K5D49TuDjVbMtHd6lfGrNvuIFAogJ6cJDXLvucCogZQmhdj+hls1v0D7q2sxKI5YA3Yjy5DluDTxSChLOol+eMttg5QnDwU0S+Z+PkXA8c+Az6h83+ynogSPMsvAbnEVpFEdgf79QrMQJb36Pnyx/RKwuoB7eQ96/DcAEOnYGDYxvvPhgKyJR1EHgSSIxE1RKEVcj3Gt2ibwe5Y2fJHTtrz8S1FZDrpySqgNB+CngdocBSkco/fkCX3iYNJ6O8APcnjC6jjPB8I+KtQNJYfeIiXPua4IMjBB99Tu7oKUT/UOvJpXl4eBMeTMJfv4OsGcOb5wOuu6Ek6sk91JN7hD992ySTPzoGvRoe3ko0OraN/zXTELBl41ZWNMn8/B3swXhktC5NWQeBJ4GcoKjaeQEhQ1DuadCogcJI1M/JDBUQgln7k2l7qNegWoFKpfHfgMpQAb1EMYvPHEpBrQqVcsNwZVOn6kfA+2gXv2CflIwiGAVOQPJXkyh2DTWMrVagbi8Mymj+1ILpQPHr8A0e+ezvTSCK56fZEig+DhSjGkaBw+3sA/yNYFpopvOS34Z+YSntBm0RiCOFOm3dZRsyIRDF89Nsydf5BDhJwEkAFLeB22GBmb2TZPA+sosuuvjf4B/mVKFnqGo6YQAAAABJRU5ErkJggg=="></img>
+                <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                <img src="https://img.icons8.com/plasticine/48/000000/react.png"/>
+                <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+                <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGc+PHBhdGggZD0iTTkzLjE2NjY3LDYwLjkxNjY3aC0yOC42NjY2N2MtMTMuODUzMTcsMCAtMjUuMDgzMzMsLTExLjIzMDE3IC0yNS4wODMzMywtMjUuMDgzMzN2MGMwLC0xMy44NTMxNyAxMS4yMzAxNywtMjUuMDgzMzMgMjUuMDgzMzMsLTI1LjA4MzMzaDI4LjY2NjY3eiIgZmlsbD0iI2U2NGExOSI+PC9wYXRoPjxwYXRoIGQ9Ik04OS41ODMzMywxMTEuMDgzMzNoLTI1LjA4MzMzYy0xMy44NTMxNywwIC0yNS4wODMzMywtMTEuMjMwMTcgLTI1LjA4MzMzLC0yNS4wODMzM3YwYzAsLTEzLjg1MzE3IDExLjIzMDE3LC0yNS4wODMzMyAyNS4wODMzMywtMjUuMDgzMzNoMjUuMDgzMzN6IiBmaWxsPSIjN2M0ZGZmIj48L3BhdGg+PHBhdGggZD0iTTY0LjUsMTYxLjI1djBjLTEzLjg1MzE3LDAgLTI1LjA4MzMzLC0xMS4yMzAxNyAtMjUuMDgzMzMsLTI1LjA4MzMzdjBjMCwtMTMuODUzMTcgMTEuMjMwMTcsLTI1LjA4MzMzIDI1LjA4MzMzLC0yNS4wODMzM2gyNS4wODMzM3YyNS4wODMzM2MwLDEzLjg1MzE3IC0xMS4yMzAxNywyNS4wODMzMyAtMjUuMDgzMzMsMjUuMDgzMzN6IiBmaWxsPSIjNjZiYjZhIj48L3BhdGg+PHBhdGggZD0iTTExNC42NjY2Nyw2MC45MTY2N2gtMjUuMDgzMzN2LTUwLjE2NjY3aDI1LjA4MzMzYzEzLjg1MzE3LDAgMjUuMDgzMzMsMTEuMjMwMTcgMjUuMDgzMzMsMjUuMDgzMzN2MGMwLDEzLjg1MzE3IC0xMS4yMzAxNywyNS4wODMzMyAtMjUuMDgzMzMsMjUuMDgzMzN6IiBmaWxsPSIjZmY3MDQzIj48L3BhdGg+PGNpcmNsZSBjeD0iMzIiIGN5PSIyNCIgdHJhbnNmb3JtPSJzY2FsZSgzLjU4MzMzLDMuNTgzMzMpIiByPSI3IiBmaWxsPSIjMjliNmY2Ij48L2NpcmNsZT48L2c+PC9nPjwvc3ZnPg=="/>
+                <img src="https://img.icons8.com/color/48/000000/adobe-illustrator.png"/>
+                <img src="https://img.icons8.com/fluent/48/000000/matlab.png"/>
+                <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+                <img src="https://img.icons8.com/color/48/000000/python.png"/>
+                <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+            </div>
+        </div>            
     );
 }
 

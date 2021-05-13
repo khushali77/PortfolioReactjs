@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {projectlist} from "../data.js";
 
 function Projects(){
@@ -18,6 +19,7 @@ function Projects(){
         <div className="projects">
             <div className="heading">
                 <h2>Following are my Projects :)</h2>
+                <p>Back to <Link to='/'>homepage</Link>✌🏽!</p>
             </div>
             <div className="projectlist">
                 {projectlist.map(item=>(<li key={item.id}><ProjectIndi data={item}/></li>))}
